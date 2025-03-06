@@ -2,24 +2,23 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\DB;
 
 class UserController extends Controller
 {
-    //
-    function getUser(){
-        //return "this is Keth Palanog";
-        return view('User');
-    }
-    function aboutUser($name){
-
-            //return "hello, This is " .$name;
-            return view ('User2',['name'=>$name]);
+    //Connect to MySQL Tutorial #26
+    function users() {
+        $users= DB::select('select * from users');
+        return view('users',["users"=>$users]);
     }
 
-    function adminLogin(){
+    function getInfo(){
+        $response = Http::get('https://jsonplaceholder.typicode.com/users/10');
+        $response = $response->body();
+        return view('client', ['info'=>json_decode($response)]);
+    }
 
-        //return "hello, This is " .$name;
-        return view ('admin.login');
-}
 }

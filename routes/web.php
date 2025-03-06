@@ -2,20 +2,25 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\StudentController;
 
-Route::get('/welcome', function () {
+// --> WELCOME PAGE <-- //
+
+Route::get('/', function () {
     return view('welcome');
 });
 
-Route::view('/home', 'home');
 
-Route::get('/about/{name}', function ($name) {
-    echo $name;
-    return view('about');
-});
+// --> USERS <-- //
 
-Route::get('/User', [UserController::class,'getUser']);
-Route::get('/User2/{name}',[UserController::class,'aboutUser']);
+Route::get('users', [UserController::class, 'users']);
 
-Route::get('/login',[UserController::class,'adminLogin']);
 
+// --> STUDENTS <-- //
+
+Route::get('students', [StudentController::class, 'getStudents']);
+
+
+// --> HTTP CLIENT <-- //
+
+Route::get('client', [UserController::class, 'getInfo']);
