@@ -65,14 +65,21 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-![Users Data](https://github.com/user-attachments/assets/5da7f674-5336-4b5e-97c3-13fa2e6571b7)
-![Inspecting Model](https://github.com/user-attachments/assets/7340eff8-208a-42c8-8fc6-70d1f36bc3c5)
-![Http Client using jsonrandomapi](https://github.com/user-attachments/assets/9bbc9747-8e2f-40dc-a6b9-6a82e0923e42)
-![Eloquent Model](https://github.com/user-attachments/assets/5164c346-8e6e-4d38-8f9b-f36de0d8fb96)
-![Display-DB-UI](https://github.com/user-attachments/assets/cb7e5100-a162-4a56-bd70-a5b37f5d23cb)
-![db-result](https://github.com/user-attachments/assets/4f60a061-f41e-462f-a0c6-ca5b1e456ee7)
-![image](https://github.com/user-attachments/assets/afa1a088-0188-4b95-b25c-186ce5c9ba0a)
+Tutorial #26 Connect to MySQL
+![Users Data](https://github.com/user-attachments/assets/30156d74-97d0-4df0-8594-2c2e903241c7)
+![db-result](https://github.com/user-attachments/assets/09ff1fbf-5edd-496a-83e9-4a1ed2eb4067)
 
+Tutorial #27 Display Database Data on UI
+![Display-DB-UI](https://github.com/user-attachments/assets/e31ed55d-3d49-4feb-ad2d-a6fa64286271)
+
+Tutorial #28 Eloquent Model
+![Eloquent Model](https://github.com/user-attachments/assets/3d79eb8a-264f-4765-af7f-cee0c656952a)
+
+Tutorial #29 Inspecting Model
+![Inspecting Model](https://github.com/user-attachments/assets/4140e090-43a0-4740-b38b-d4aeb848525f)
+
+Tutorial #30 Http Client
+![Http Client using jsonrandomapi](https://github.com/user-attachments/assets/952d58fb-233c-4597-8e66-758c6ecdd033)
 
 
 
